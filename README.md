@@ -2,7 +2,7 @@
 ...
 ___
 
-## Webpack babel es2015 boilerplate
+## Webpack babel es6 React boilerplate
 
 *"Nothing you don't need"*
 
