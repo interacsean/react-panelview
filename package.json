@@ -2,7 +2,7 @@
   "name": "your-project",
   "version": "0.0.1",
   "description": "",
-  "main": "app.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "node node_modules/.bin/webpack-dev-server --content-base src",
     "build": "NODE_ENV=production node node_modules/.bin/webpack && cp src/index.html dist/index.html"

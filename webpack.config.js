@@ -2,7 +2,8 @@ var path = require('path');
 var webpack = require('webpack');
 
 module.exports = {
-    entry: './src/app.js',
+    context: __dirname + "/src",
+    entry: './index.js',
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: 'app.min.js'
@@ -11,7 +12,7 @@ module.exports = {
         loaders: [
             {
                 test: /\.js$/,
-                loader: 'babel-loader',
+                loader: ['react', 'babel-loader'],
                 query: {
                     presets: ['es2015']
                 }
