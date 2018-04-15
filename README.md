@@ -14,12 +14,13 @@ It has only been initialised with webpack-dev-server, and set up for es6 transpi
 
  - Once cloned, run `npm install` to initialise.
  - `src/index.js` is your app's entry point.
- - `src/index.html` is your base template.
+ - `static/index.html` is your html template.
+ - Put images and other static resources in `static/`. 
  - To start your app: `npm start`.
- - To package your app: `npm build`.
+ - To package your app: `npm run build`.
  - Find bundled, distributable code in `/dist`.
 
-DIY css preprocessing, test frameworks, asset copying.
+DIY css preprocessing, test frameworks.
 ___
 
 Module versions last updated: 10 Dec 2017
