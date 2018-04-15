@@ -20,7 +20,7 @@ const panelData = [
 const App = () => (
     <div id="app">
         <h1>My app</h1>
-        <img src="/static/something.svg" />
+        <img src="/kiwi.svg" />
         {
             panelData.map(
                 panel => <Panel {...panel} key={panel.color}/>
